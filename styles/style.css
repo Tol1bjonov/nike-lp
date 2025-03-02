@@ -21,6 +21,7 @@ a{
     max-width: 1110px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 #header{
     background-color: var(--primary-color);
@@ -67,5 +68,5 @@ a{
     color: var(--text-color-dark);
     margin-top: 1rem;
     font-size: 1.1rem;
-    
+
 }
