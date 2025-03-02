@@ -1,0 +1,71 @@
+:root{
+    --primary-color: #322e41;
+    --text-color-dark: #ffffff;
+    --text-hover-color: #d47300;
+    --product-title-color: #2c2a2a;
+    --text-muted: #9b9b9b;
+    --link-hover-bg: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type:none ;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+#header{
+    background-color: var(--primary-color);
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav_items{
+    display: flex;
+}
+.header-nav_item{
+    padding: 22px 23px;
+    transition: 0.3s;
+}
+.header-nav_item:hover{
+    background-color: var(--link-hover-bg);
+    color: var(--text-hover-color);
+}
+.header-nav_link{
+    color: var(--text-color-dark);
+}
+.header-nav_item:hover .header-nav_link{
+    color: var(--text-hover-color);
+}
+
+
+/*Banner*/
+#banner{
+    background-image: url(/assests/images/main-background.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-paragrapgh{
+    color: var(--text-color-dark);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.banner-text{
+    color: var(--text-color-dark);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    
+}
