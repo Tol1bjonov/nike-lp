@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/medio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.google.com/css2?family=Roboto:wght@400;700&display=swap">
@@ -39,13 +40,95 @@
     <!--/Header-->
 
 
-    <main class="container">
+    <main>
         <!--Banner-->
         <section id="banner">
             <h1 class="banner-paragrapgh">Nike</h1>
-            <p class="banner-text">Cool Sneakers from NIKE for you</p>
+            <p class="banner-text">Cool Sneakers from <b>NIKE</b> for you</p>
         </section>
         <!--/Banner-->
+
+        <section id="products"  class="container">
+            <div class="main-product">
+                <img src="./assests/images/nike-boots-1.png"
+                 alt="main-product"
+                 class="main-product_img">
+                <h2 class="product-title">Shoe Review: Nike React Infinity Run</h2>
+                <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                 industry. Lorem Ipsum has been the industry's standard dummy text ever
+                 since the 1500s, when an unknown printer took a galley of type and scrambled
+                 it to make a type specimen book. It has survived not only five centuries,
+                 but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+            <div class="product">
+                <div class="product-img-wrapper">
+                    <img src="./assests/images/nike-boots-2.png" alt="boots 2">
+                </div>
+                <h1 class="product-title">Nike Air Max 700</h1>
+                <p class="product-text">Lorem Ipsum is simply dummy text
+                 of the printing and typesetting industry. Lorem Ipsum 
+                 has</p>
+            </div>
+            <div class="product">
+                <div class="product-img-wrapper">
+                    <img src="./assests/images/nike-boots-3.png" alt="boots 2">
+                </div>
+                <h1 class="product-title">Nike Tanjun</h1>
+                <p class="product-text">Lorem Ipsum is simply dummy text
+                 of the printing and typesetting industry. Lorem Ipsum 
+                 has</p>
+            </div>
+            <div class="product">
+                <div class="product-img-wrapper">
+                    <img src="./assests/images/nike-boots-4.png" alt="boots 2">
+                </div>
+                <h1 class="product-title">Green Air Force</h1>
+                <p class="product-text">Lorem Ipsum is simply dummy text
+                 of the printing and typesetting industry. Lorem Ipsum 
+                 has</p>
+            </div>
+            <div class="product">
+                <div class="product-img-wrapper">
+                    <img src="./assests/images/nike-boots-5.png" alt="boots 2">
+                </div>
+                <h1 class="product-title">Nike Moon Shoes</h1>
+                <p class="product-text">Lorem Ipsum is simply dummy text
+                 of the printing and typesetting industry. Lorem Ipsum 
+                 has</p>
+            </div>
+        </section>
     </main>
+
+    <footer id="footer">
+        <div class="container">
+            <form action="" method="post" class="footer-form">
+                <input type="text" name="full_name" class="footer-input" placeholder="Your Name">
+                <textarea name="message" cols="30" rows="5" placeholder="Message" class="footer-input"></textarea>
+                <button class="footer-btn">Submit</button>
+            </form>
+            <ul class="footer-links">
+                <li class="footer-link_item">
+                    <a href="https://facebook.com" class="footer-link-icon" target="_blank">
+                        <img src="./assests/icons/facebook-icon.svg" alt="facebook-icon">
+                    </a>
+                </li>
+                <li class="footer-link_item">
+                    <a href="https://google.com" class="footer-link-icon" target="_blank">
+                        <img src="./assests/icons/google-icon.svg" alt="facebook-icon">
+                    </a>
+                </li>
+                <li class="footer-link_item">
+                    <a href="https://pinterest.com" class="footer-link-icon" target="_blank">
+                        <img src="./assests/icons/pinterest-icon.svg" alt="facebook-icon">
+                    </a>
+                </li>
+                <li class="footer-link_item">
+                    <a href="https://x.com" class="footer-link-icon" target="_blank">
+                        <img src="./assests/icons/twittter-icon.svg" alt="facebook-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
   </body>
 </html>
