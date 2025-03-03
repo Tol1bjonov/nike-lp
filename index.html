@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/medio.css">
+    <link rel="stylesheet" href="./styles/medio.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.google.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assests/images/nike7.png">
   </head>
   <body>
     <!--Header-->
     <header id="header" class="">
         <nav class="header-nav container">
-            <img src="./assests/icons/nike-logo.svg" alt="nike-logo">
+            <img src="./assests/icons/nike-logo.svg" alt="nike-logo" class="header-logo">
             <ul class="header-nav_items">
                 <li class="header-nav_item">
                     <a href="#" class="header-nav_link">Sneakers</a>
@@ -35,6 +36,32 @@
                     <a href="#" class="header-nav_link">Sweaters</a>
                 </li>
             </ul>
+            <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            
+            <div class="mobile-menu ">
+                <ul class="mobile-nav_items">
+                    <li class="header-nav_item">
+                        <a href="#" class="header-nav_link">Sneakers</a>
+                    </li>
+                    <li class="header-nav_item">
+                        <a href="#" class="header-nav_link">Gumshoes</a>
+                    </li>
+                    <li class="header-nav_item">
+                        <a href="#" class="header-nav_link">T-shirts</a>
+                    </li>
+                    <li class="header-nav_item">
+                        <a href="#" class="header-nav_link">Shorts</a>
+                    </li>
+                    <li class="header-nav_item">
+                        <a href="#" class="header-nav_link">Jeans</a>
+                    </li>
+                    <li class="header-nav_item">
+                        <a href="#" class="header-nav_link">Sweaters</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <!--/Header-->
@@ -131,4 +158,5 @@
         </div>
     </footer>
   </body>
+  <script src="./javascript/app.js"></script>
 </html>
